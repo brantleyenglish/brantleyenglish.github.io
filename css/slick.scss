@@ -1,0 +1,60 @@
+.carousel {
+  height: 250px;
+  margin-bottom: 50px;
+  .prev,
+  .next {
+    width: 5%;
+    font-size: 30px;
+    line-height: 250px;
+    vertical-align: middle;
+    padding: auto;
+    text-align: center;
+    @media (max-width: 748px) {
+      width: 10%;
+    }
+  }
+  .prev {
+    float: left;
+  }
+  .next {
+    float: right;
+  }
+  .slicklawncare {
+    margin: auto;
+    max-width: 90%;
+    padding: 0;
+    @media (max-width: 748px) {
+      max-width: 80%;
+    }
+    .slicklawncare__item {
+      height: 250px;
+      overflow: hidden;
+      outline: none;
+      a {
+        outline: none;
+        &:hover {
+          img {
+            transform: scale(1.1, 1.1);
+            transition-duration: 1s;
+          }
+        }
+      }
+      video {
+        height: 100%;
+      }
+      img {
+        width: 100%;
+        min-height: 100%;
+        outline: none;
+        object-fit: cover;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+.slick-arrow {
+  cursor: pointer;
+}
