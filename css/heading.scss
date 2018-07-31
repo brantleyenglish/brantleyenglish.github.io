@@ -3,7 +3,7 @@
   margin-bottom: 100px;
   overflow: hidden;
   @media (max-width: 748px) {
-    height: 274px;
+    height: 334px;
   }
   &__title {
     z-index: 10;
@@ -12,11 +12,11 @@
     right: 0;
     top: 30vh;
     width: 65%;
-    padding: 30px 0px 50px 50px;
+    padding: 30px 0px 30px 30px;
     opacity: 1;
     @media (max-width: 748px) {
       top: 15vh;
-      width: 80%;
+      width: 100%;
       padding-left: 25px;
       h1 {
         font-size: 2.5em;
@@ -26,7 +26,7 @@
       display: flex;
       justify-content: space-between;
       padding-top: 15px;
-      max-width: 545px;
+      max-width: 300px;
       flex-wrap: wrap;
       a {
         font-size: 1.3em;
