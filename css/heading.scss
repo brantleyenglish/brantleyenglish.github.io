@@ -77,8 +77,12 @@ a.button {
   }
 }
 
-.profile {
+.profile.info {
   padding-bottom: 290px;
+}
+
+.profile {
+  padding-bottom: 120px;
   &__wrapper {
     display: flex;
     align-items: flex-end;
