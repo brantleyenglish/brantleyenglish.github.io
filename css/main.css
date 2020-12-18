@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i");
 @import url(font-awesome.min.css);
 * {
-  font-family: 'Lora', serif; }
+  font-family: "Lora", serif; }
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px; }
 
 h1 {
   font-size: 4.5em;
@@ -11,7 +15,8 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-  font-weight: 400; }
+  font-weight: 400;
+  padding-bottom: 30px; }
 
 h3 {
   font-size: 1.8em;
@@ -40,6 +45,43 @@ p {
     @media (max-width: 748px) {
       .flex img {
         height: 200px; } }
+
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .flex-box .flex-item {
+    width: 400px;
+    margin-bottom: 60px; }
+    .flex-box .flex-item h2 {
+      margin: 0;
+      padding: 0; }
+    .flex-box .flex-item a {
+      text-decoration: none;
+      color: #333; }
+    .flex-box .flex-item .img-wrapper {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .flex-box .flex-item img {
+      -o-object-fit: contain;
+         object-fit: contain;
+      width: 100%; }
+    .flex-box .flex-item:hover img {
+      -webkit-transform: scale(1.1, 1.1);
+          -ms-transform: scale(1.1, 1.1);
+              transform: scale(1.1, 1.1);
+      -webkit-transition-duration: 1s;
+              transition-duration: 1s; }
 
 .heading {
   height: 100vh;
