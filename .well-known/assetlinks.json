@@ -1,0 +1,12 @@
+[
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "org.abs.bep",
+			"sha256_cert_fingerprints": [
+				"40:BA:B8:1B:A1:3D:4A:FF:B4:C2:0A:1D:7A:8D:37:3F:5E:AD:18:25:C9:4D:6E:07:B4:18:08:F8:16:DF:26:65"
+			]
+		}
+	}
+]
